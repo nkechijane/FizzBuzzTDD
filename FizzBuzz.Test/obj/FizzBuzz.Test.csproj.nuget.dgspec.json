@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/janeokeke/dev/Fizzbuzz/FizzBuzz.Test/FizzBuzz.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/janeokeke/dev/Fizzbuzz/FizzBuzz.Test/FizzBuzz.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/janeokeke/dev/Fizzbuzz/FizzBuzz.Test/FizzBuzz.Test.csproj",
+        "projectName": "FizzBuzz.Test",
+        "projectPath": "/Users/janeokeke/dev/Fizzbuzz/FizzBuzz.Test/FizzBuzz.Test.csproj",
+        "packagesPath": "/Users/janeokeke/.nuget/packages/",
+        "outputPath": "/Users/janeokeke/dev/Fizzbuzz/FizzBuzz.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/janeokeke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/janeokeke/dev/Fizzbuzz/Fizzbuzz/Fizzbuzz.csproj": {
+                "projectPath": "/Users/janeokeke/dev/Fizzbuzz/Fizzbuzz/Fizzbuzz.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/janeokeke/dev/Fizzbuzz/Fizzbuzz/Fizzbuzz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/janeokeke/dev/Fizzbuzz/Fizzbuzz/Fizzbuzz.csproj",
+        "projectName": "Fizzbuzz",
+        "projectPath": "/Users/janeokeke/dev/Fizzbuzz/Fizzbuzz/Fizzbuzz.csproj",
+        "packagesPath": "/Users/janeokeke/.nuget/packages/",
+        "outputPath": "/Users/janeokeke/dev/Fizzbuzz/Fizzbuzz/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/janeokeke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
