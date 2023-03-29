@@ -17,20 +17,19 @@ namespace FizzBuzz.Test;
  */
 public class FizzBuzzShould
 {
-    [Test]
-    public void Return1WhenInputIs1()
+    [TestCase(1, "1")]
+    [TestCase(2, "2")]
+    [TestCase(3, "Fizz")]
+    [TestCase(4, "4")]
+    [TestCase(9, "Fizz")]
+    [TestCase(15, "FizzBuzz")]
+    [TestCase(30, "FizzBuzz")]
+    [TestCase(45, "FizzBuzz")]
+    public void ReturnFIzzBuzzWhenInputIsNaturalNumber(int naturalNumber, string expectedResult)
     {
         var fizzBuzz = new FizzBuzz();
-        var result = fizzBuzz.Output(1); 
-        result.Should().BeEquivalentTo("1");
-    } 
-    
-   [Test]
-    public void Return2WhenInputIs2()
-    {
-        var fizzBuzz = new FizzBuzz();
-        var result = fizzBuzz.Output(2);
-        result.Should().BeEquivalentTo("2");
+        var result = fizzBuzz.Output(naturalNumber);
+        result.Should().BeEquivalentTo(expectedResult);
     }
 }
 
@@ -38,10 +37,8 @@ public class FizzBuzz
 {
     public string Output(int naturalNumber)
     {
-        if (naturalNumber == 1)
-        {
-            return "1";
-        }
-        return "2";
+        if (naturalNumber % 3 == 0 && naturalNumber % 5 == 0) return "FizzBuzz";
+        if (naturalNumber % 3 == 0) return "Fizz";
+        return naturalNumber % 5 == 0 ? "Buzz" : naturalNumber.ToString();
     }
 }
